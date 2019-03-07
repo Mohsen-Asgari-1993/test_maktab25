@@ -9,6 +9,7 @@ public class ComparingNumbers {
             numbers[i] = input.nextInt();
         }
         System.out.println(max(numbers));
+        System.out.println("hi");
     }
 
     static int max(int[] array) {
@@ -19,5 +20,6 @@ public class ComparingNumbers {
             }
         }
         return max;
+
     }
 }
